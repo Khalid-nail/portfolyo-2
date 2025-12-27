@@ -114,7 +114,39 @@ button{
 button:hover{
     opacity: 80%;
     cursor: pointer;
+}input {
+    background-color: white;
+    width: 70%;
+    margin-left: 12%;
+    font-size: 20px;
+    padding: 16px;
+    border-radius: 10px;
+    border-color: black;
+    margin-bottom: 20px;
 }
+textarea {
+    background-color: white;
+    width: 70%;
+    margin-left: 12%;
+    font-size: 20px;
+    padding: 16px 16px;
+    border-radius:10px ;
+    border-color: black;
+    margin-bottom: 25px;
+
+}
+input:focus-within {
+    outline: none;
+    border-color: #5bd183;
+    border-width: 3px;
+}
+textarea:focus-within {
+    outline: none;
+    border-color: #5bd183;
+    border-width: 3px;
+}
+
+
 
 .title {
     display: flex;
